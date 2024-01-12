@@ -1,8 +1,9 @@
 package com.jobmarket.jobmarketapp.entities.notification;
 
-import com.swiftselect.domain.entities.base.Base;
-import com.swiftselect.domain.entities.jobpost.JobPost;
-import com.swiftselect.domain.entities.jobseeker.JobSeeker;
+
+import com.jobmarket.jobmarketapp.entities.base.Base;
+import com.jobmarket.jobmarketapp.entities.jobpost.JobPost;
+import com.jobmarket.jobmarketapp.entities.jobseeker.JobSeeker;
 import jakarta.persistence.Entity;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;

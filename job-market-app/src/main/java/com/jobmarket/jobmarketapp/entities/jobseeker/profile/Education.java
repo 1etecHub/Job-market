@@ -1,8 +1,9 @@
 package com.jobmarket.jobmarketapp.entities.jobseeker.profile;
 
-import com.swiftselect.domain.entities.base.Base;
-import com.swiftselect.domain.entities.jobseeker.JobSeeker;
-import com.swiftselect.domain.enums.EducationLevel;
+
+import com.jobmarket.jobmarketapp.entities.base.Base;
+import com.jobmarket.jobmarketapp.entities.enums.EducationLevel;
+import com.jobmarket.jobmarketapp.entities.jobseeker.JobSeeker;
 import jakarta.persistence.*;
 import lombok.*;
 

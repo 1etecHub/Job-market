@@ -1,6 +1,7 @@
 package com.jobmarket.jobmarketapp.entities.jobpost;
 
-import com.swiftselect.domain.entities.base.Base;
+
+import com.jobmarket.jobmarketapp.entities.base.Base;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,9 +1,10 @@
 package com.jobmarket.jobmarketapp.entities.jobpost;
 
-import com.swiftselect.domain.entities.Report;
-import com.swiftselect.domain.entities.base.Base;
-import com.swiftselect.domain.entities.employer.Employer;
-import com.swiftselect.domain.enums.*;
+
+import com.jobmarket.jobmarketapp.entities.Report;
+import com.jobmarket.jobmarketapp.entities.base.Base;
+import com.jobmarket.jobmarketapp.entities.employer.Employer;
+import com.jobmarket.jobmarketapp.entities.enums.*;
 import jakarta.persistence.*;
 import lombok.*;
 

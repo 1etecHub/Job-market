@@ -1,13 +1,14 @@
 package com.jobmarket.jobmarketapp.entities.jobseeker;
 
-import com.swiftselect.domain.entities.Report;
-import com.swiftselect.domain.entities.base.Person;
-import com.swiftselect.domain.entities.jobpost.Applications;
-import com.swiftselect.domain.entities.jobseeker.profile.*;
-import com.swiftselect.domain.enums.Gender;
-import com.swiftselect.domain.enums.JobType;
-import com.swiftselect.domain.enums.PayRate;
-import com.swiftselect.domain.enums.Role;
+
+import com.jobmarket.jobmarketapp.entities.Report;
+import com.jobmarket.jobmarketapp.entities.base.Person;
+import com.jobmarket.jobmarketapp.entities.enums.Gender;
+import com.jobmarket.jobmarketapp.entities.enums.JobType;
+import com.jobmarket.jobmarketapp.entities.enums.PayRate;
+import com.jobmarket.jobmarketapp.entities.enums.Role;
+import com.jobmarket.jobmarketapp.entities.jobpost.Applications;
+import com.jobmarket.jobmarketapp.entities.jobseeker.profile.*;
 import jakarta.persistence.*;
 import lombok.*;
 
