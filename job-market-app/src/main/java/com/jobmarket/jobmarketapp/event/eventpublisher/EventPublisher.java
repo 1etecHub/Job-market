@@ -20,7 +20,7 @@ public class EventPublisher {
     }
 
     public void forgotPasswordEventPublisher(String email, HttpServletRequest request) {
-        eventPublisher.publishEvent(new gitForgotPasswordEvent(email, AuthenticationUtils.applicationUrl(request)));
+        eventPublisher.publishEvent(new ForgotPasswordEvent(email, AuthenticationUtils.applicationUrl(request)));
     }
 
     public void notificationMailEventPublisher(String email, String firstName, String subject, String description, HttpServletRequest request) {
