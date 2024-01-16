@@ -1,7 +1,7 @@
 package com.jobmarket.jobmarketapp.services;
 
 import com.jobmarket.jobmarketapp.event.events.ForgotPasswordEvent;
-import com.jobmarket.jobmarketapp.payload.request.MailRequest;i
+import com.jobmarket.jobmarketapp.payload.request.MailRequest;
 
 public interface EmailSenderService {
     void sendEmailAlert(MailRequest mailDTO);
